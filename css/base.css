@@ -168,6 +168,7 @@ div.section:first div.separate {
     width:100%;
     border: 1px solid black;
     border-collapse: collapse;
+    margin-bottom: 1vw;
 }
 
 #past_courses table tr th, #past_courses table tr td {
