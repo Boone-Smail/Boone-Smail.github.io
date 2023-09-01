@@ -1,0 +1,198 @@
+html, body, h1, h2, p, div {
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html h1 {
+    width: 100%;
+    text-align:center;
+    margin-top: 5vw;
+    font-size: 5vw;
+    margin-bottom: 0.5vw;
+}
+
+html h2 {
+    width: 100%;
+    text-align: center;
+    color: #5c5c5c;
+    margin-bottom: 1vw;
+
+}
+
+html div.separate {
+    height: 0.02vw;
+    width: 75%;
+    margin: auto;
+    color: black;
+    background-color:black;
+}
+
+html div.section {
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+/* schedule setup */
+
+html div.section table#schedule {
+    width: 95%;
+    margin: auto;
+    border-collapse: collapse;
+    border-top: 1px solid #5c5c5c;
+    margin-bottom: 1vw;
+}
+
+html div.section table#schedule tr th, html div.section table#schedule tr td {
+    width: 12.5%;
+    text-align: center;
+    border-left: 1px solid black;
+    border-bottom: 1px solid #5c5c5c;
+    font-size:1.3vw;
+}
+
+html div.section table#schedule tr th:last-child, html div.section table#schedule tr td:last-child {
+    border-right: 1px solid black;
+}
+
+html div.clear {
+    width: 100%;
+    display: block;
+    clear: both;
+}
+
+/* schedule stylings */
+
+div.section h3 {
+    font-size: 2vw;
+    text-align: center;
+    margin: 0px;
+}
+
+div.section:first div.separate {
+    margin-bottom: 1vw;
+}
+
+.tutoring {
+    background-color:yellow;
+    border-bottom: 1px solid yellow !important;
+}
+
+.CSCI_366 {
+    background-color: greenyellow;
+    border-bottom: 1px solid greenyellow !important;
+}
+
+.CSCI_440 {
+    background-color: lightblue;
+    border-bottom: 1px solid lightblue !important;
+}
+
+.CSCI_331 {
+    background-color: plum;
+    border-bottom: 1px solid plum !important;
+}
+
+.CSCI_351 {
+    background-color: salmon;
+    border-bottom: 1px solid salmon !important;
+}
+
+.M_221 {
+    background-color: orange;
+    border-bottom: 1px solid orange !important;
+}
+
+.UCA_CS_MART_145 {
+    background-color: darkslateblue;
+    border-bottom: 1px solid darkslateblue !important;
+}
+
+/* schedule legend stylings */
+
+.box {
+    width: 1.5vw;
+    height: 1.5vw;
+    float: left;
+}
+
+#schedule_legend section p {
+    float: left;
+    font-size: 1.5vw;
+    margin-left: 0.2vw;
+}
+
+#schedule_legend {
+    width: 95%;
+    margin: auto;
+}
+
+#schedule_legend h3 {
+    text-align: center;
+    margin-bottom: 0.3vw;
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+
+#schedule_legend div.separate {
+    margin-bottom: 0.3vw;
+}
+
+#schedule_legend section {
+    width: 25%;
+    float: left;
+    margin-bottom: 0.2vw;
+}
+
+#schedule_legend section:last-of-type {
+    width: 50%;
+}
+
+/* past classes stylings */
+#past_courses {
+    width: 95%;
+    margin: auto;
+    clear: both;
+}
+
+#past_courses h3 {
+    padding-top: 2vw;
+}
+
+#past_courses table {
+    width:100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#past_courses table tr th, #past_courses table tr td {
+    border-bottom: 1px solid #5c5c5c;
+    border-left: 1px solid black;
+    font-size: 1.5vw;
+}
+
+#past_courses table tr:nth-of-type(2) th {
+    width: 11.111%;
+}
+
+#past_courses table .empty_cell {
+    background-color: darkgrey;
+}
+
+/* footer stylings */
+
+html footer {
+    background-color: black;
+    color: white;
+}
+
+html footer p {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 1vw;
+}
