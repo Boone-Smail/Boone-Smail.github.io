@@ -1,6 +1,7 @@
 html, body, h1, h2, p, div {
     margin: 0px;
     padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -113,6 +114,40 @@ div.section:first div.separate {
     border-bottom: 1px solid darkslateblue !important;
 }
 
+/* form stylings */
+
+form {
+    width: 90%;
+    margin: auto;
+    border: solid black 2px;
+}
+
+form h3 {
+    color: white;
+    background-color:black;
+}
+
+form input, form label:first-of-type {
+    display: block;
+    margin-left: 2vw;
+}
+
+form input#form_colorPicker {
+    width: 30%;
+    margin-top: 1vw;
+}
+
+form input#form_sparksJoy {
+    display: inline;
+    margin-top: 1vw;
+}
+
+form input#form_submit {
+    display:block;
+    margin-top:1vw;
+    margin-bottom: 1vw;
+}
+
 /* schedule legend stylings */
 
 .box {
@@ -196,4 +231,81 @@ html footer p {
     padding-top: 1vw;
     padding-bottom: 1vw;
     padding-left: 1vw;
+}
+
+/* Image stylings */
+figure {
+    transition: all 0.5s;
+}
+
+figure a {
+    color: #5c5c5c;
+}
+
+figure a:visited {
+    color: #5c5c5c;
+    text-decoration: none;
+}
+
+figure img {
+    object-fit:cover;
+    width: 20vw;
+    height: 20vw;
+    border: 1vw solid #5c5c5c;
+}
+
+figure:first-of-type {
+    margin-bottom: 3vw;
+}
+
+figure:first-of-type a img {
+    margin-left: 10vw;
+    transition: all 0.3s;
+    float: left;
+}
+
+figure:first-of-type a figcaption {
+    display: none;
+    width: 20%;
+    float: left;
+    font-size: 1.25vw;
+    margin-top: 7.5vw;
+    margin-left: 0vw;
+}
+
+figure:first-of-type:hover a img {
+    margin-left: 0vw;
+    border-radius: 50%;
+}
+
+figure:first-of-type:hover a figcaption {
+    display: inline;
+    width: 22%;
+    margin-left: 0.8vw;
+}
+
+figure:nth-of-type(2) a img {
+    margin-right: 10vw;
+    transition: all 0.3s;
+    float: right;
+}
+
+figure:nth-of-type(2) a figcaption {
+    display: none;
+    width: 20%;
+    float: right;
+    font-size: 1.25vw;
+    margin-top: 7.5vw;
+    margin-left: 0vw;
+}
+
+figure:nth-of-type(2):hover a img {
+    margin-right: 5vw;
+    border-radius: 50%;
+}
+
+figure:nth-of-type(2):hover a figcaption {
+    display: inline;
+    width: 22%;
+    margin-left: 0.8vw;
 }
